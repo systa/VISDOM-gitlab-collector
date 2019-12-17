@@ -1,0 +1,19 @@
+{
+  "name": "visdom-data-collector",
+  "version": "1.0.0",
+  "description": "Example data collector for VISDOM",
+  "main": "test.js",
+  "dependencies": {
+    "JSONPath": "^0.11.2",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1",
+    "url-template": "^2.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

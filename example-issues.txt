@@ -1,0 +1,50 @@
+!! Got 0 milestones
+!! Got 20 jobs
+!! Got 322 comments
+!! Got 267 stateChanges
+!! Got 92 issues
+!! Got 254 changeEvents
+#Issue management data fetched from source.
+#0 milestones last of which is:
+# undefined
+#20 jobs last of which is:
+# { id: 157610,
+  state: 'success',
+  stage: 'test',
+  name: 'test',
+  ref: 'develop',
+  created: '2019-11-19T14:02:11.421+02:00',
+  started: '2019-11-19T14:02:13.892+02:00',
+  finished: '2019-11-19T14:03:28.288+02:00',
+  duration: 74.396763 }
+#322 comments last of which is:
+# { id: 62280,
+  issue: 2085,
+  user: 'kohomaki',
+  created: '2019-02-11T16:36:48.705+02:00',
+  message: 'Is the problem that modified/new tasks aren\'t loaded in deployment? fabfile.py seems to be using `service repolainen_celery restart`. Could `service repolainen_celery stop && service repolainen_celery start` do the trick? ' }
+#267 stateChanges last of which is:
+# { id: 2422,
+  issue: 2089,
+  user: undefined,
+  created: '2019-01-25T12:00:38.018Z',
+  action: 'add',
+  label: 'Doing next' }
+#92 issues last of which is:
+# { id: 2085,
+  number: 1,
+  title: 'CI: Automate configuration management',
+  description: 'For example: populate settings.py from Gitlab CI/CD variables before restarting Repolainen and Celery',
+  state: 'closed',
+  user: 'venttola',
+  created: '2019-01-17T15:33:06.561+02:00',
+  updated: '2019-03-20T14:30:03.800+02:00',
+  assignee: 'kohomaki',
+  milestone: undefined,
+  labels: [] }
+#254 changeEvents last of which is:
+# { id: 2085,
+  user: 'venttola',
+  issue: 2085,
+  created: '2019-03-20T14:30:03.800+02:00',
+  change: 'updated' }

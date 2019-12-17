@@ -1,0 +1,47 @@
+!! Got 4392 pipelineJobs
+!! Got 815 pipelineDetails
+!! Got 4868 commitStatuses
+!! Got 815 pipelines
+!! Got 0 changeEvents
+#Data fetched from source.
+#4392 pipelineJobs last of which is:
+# { id: 203,
+  state: 'success',
+  stage: 'test',
+  name: 'test_tests',
+  ref: 'ci-cd-pipeline',
+  created: '2018-02-13T17:34:46.130+02:00',
+  started: '2018-02-13T17:34:47.363+02:00',
+  finished: '2018-02-13T17:40:16.371+02:00',
+  duration: 329.007988,
+  user: 'venttola',
+  pipeline: 31,
+  commit: 'da7ab304c689cdf47795d40956943e11bd9ee462',
+  commit_title: 'Moved the requirement installing to the setup script.' }
+#815 pipelineDetails last of which is:
+# { id: 30,
+  ref: 'ci-cd-pipeline',
+  status: 'failed',
+  user: 'venttola',
+  created: '2018-02-13T16:31:16.632+02:00',
+  started: '2018-02-13T16:31:18.530+02:00',
+  finished: '2018-02-13T16:32:13.901+02:00',
+  updated: '2018-02-13T16:32:13.911+02:00',
+  duration: 55,
+  commit: '6ea425c36f68a09408b29b42a0efaf75d167cbc9',
+  isVersion: false }
+#4868 commitStatuses last of which is:
+# { id: 203,
+  sha: 'da7ab304c689cdf47795d40956943e11bd9ee462',
+  ref: 'ci-cd-pipeline',
+  name: 'test_tests',
+  state: 'success',
+  description: null,
+  user: 'venttola',
+  created: '2018-02-13T17:34:46.130+02:00',
+  started: '2018-02-13T17:34:47.363+02:00',
+  finished: '2018-02-13T17:40:16.371+02:00' }
+#815 pipelines last of which is:
+# { id: 30, ref: 'ci-cd-pipeline', status: 'failed' }
+#0 changeEvents last of which is:
+# undefined
